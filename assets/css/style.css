@@ -1,0 +1,67 @@
+html, body {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-image: url("../img/testimonal_background_dark.jpg");
+}
+
+.section-odd {
+    background-image: url("../img/makereservation_dark.jpg");
+}
+
+header, .section-odd {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer a {
+    color: var(--secondary-color);
+}
+
+header, footer, .section-odd {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.section-even, .section-odd div {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.fa-facebook, .fa-instagram {
+    margin-right: var(--gap-sm);
+    font-size: var(--fs-xl);
+}
+
+.fa-facebook {
+    transition: 0.5s ease-in-out;
+    color: var(--facebook-color);
+}
+
+.fa-instagram {
+    transition: 0.5s ease-in-out;
+    color: var(--instagram-color);
+}
+
+.fa-facebook:hover {
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+
+.fa-instagram:hover {
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+
+.highlight-animation {
+    background-position: left;
+    background-size: 0% 100%;
+    background-image: linear-gradient(rgba(39, 212, 251, 0.259),rgba(39, 212, 251, 0.259));
+    transition: all 500ms ease-in-out;
+    background-repeat: no-repeat;
+}
+
+article:hover .highlight-animation  {
+    background-size: 100% 100%;
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --primary-color: black;
+    --secondary-color: white;
+    --tertiary-color: rgb(39, 212, 251);
+    --facebook-color: #304ae1;
+    --instagram-color: #E1306C;
+
+    --gap-xs: 5px;
+    --gap-sm: 15px;
+    --gap-md: 30px;
+    --gap-lg: 60px;
+    --gap-xl: 80px;
+
+    --fs-xs: 14px;
+    --fs-sm: 18px;
+    --fs-md: 24px;
+    --fs-lg: 28px;
+    --fs-xl: 42px;
+}
