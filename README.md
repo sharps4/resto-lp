@@ -1,6 +1,3 @@
 # Projet par:
 
-Adrian
-Thomas
-Clément
-Antoine
+Adrian, Thomas, Clément, Antoine
